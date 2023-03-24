@@ -4,7 +4,8 @@
   "scripts": {
     "types": "tsc --noEmit && eslint -c .eslintrc.json",
     "test": "jest --passWithNoTests",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "tsc -p ."
   },
   "engines": {
     "node": ">=16.15.0"
