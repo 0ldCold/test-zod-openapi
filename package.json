@@ -26,5 +26,9 @@
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@asteasolutions/zod-to-openapi": "^4.5.0",
+    "zod": "^3.21.4"
   }
 }

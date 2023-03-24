@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@asteasolutions/zod-to-openapi", "virtual:3264a12e7c88769b554aa243597a4430a868643e37cffd26f74509e2b5f49e2ac6d14664df878bace7d4e59bc7384cd980049f7cbdb901b3eadf8dd1b3e0f175#npm:4.5.0"],\
             ["@types/jest", "npm:29.5.0"],\
             ["@types/node", "npm:18.15.7"],\
             ["@typescript-eslint/eslint-plugin", "virtual:3264a12e7c88769b554aa243597a4430a868643e37cffd26f74509e2b5f49e2ac6d14664df878bace7d4e59bc7384cd980049f7cbdb901b3eadf8dd1b3e0f175#npm:5.56.0"],\
@@ -42,7 +43,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier-eslint", "npm:15.0.1"],\
             ["ts-jest", "virtual:3264a12e7c88769b554aa243597a4430a868643e37cffd26f74509e2b5f49e2ac6d14664df878bace7d4e59bc7384cd980049f7cbdb901b3eadf8dd1b3e0f175#npm:29.0.5"],\
             ["ts-node", "virtual:3264a12e7c88769b554aa243597a4430a868643e37cffd26f74509e2b5f49e2ac6d14664df878bace7d4e59bc7384cd980049f7cbdb901b3eadf8dd1b3e0f175#npm:10.9.1"],\
-            ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"],\
+            ["zod", "npm:3.21.4"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -54,6 +56,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@ampproject/remapping", "npm:2.2.0"],\
             ["@jridgewell/gen-mapping", "npm:0.1.1"],\
             ["@jridgewell/trace-mapping", "npm:0.3.17"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@asteasolutions/zod-to-openapi", [\
+        ["npm:4.5.0", {\
+          "packageLocation": "./.yarn/cache/@asteasolutions-zod-to-openapi-npm-4.5.0-98ddcf5e69-6bd8bb5851.zip/node_modules/@asteasolutions/zod-to-openapi/",\
+          "packageDependencies": [\
+            ["@asteasolutions/zod-to-openapi", "npm:4.5.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:3264a12e7c88769b554aa243597a4430a868643e37cffd26f74509e2b5f49e2ac6d14664df878bace7d4e59bc7384cd980049f7cbdb901b3eadf8dd1b3e0f175#npm:4.5.0", {\
+          "packageLocation": "./.yarn/__virtual__/@asteasolutions-zod-to-openapi-virtual-56f0902423/0/cache/@asteasolutions-zod-to-openapi-npm-4.5.0-98ddcf5e69-6bd8bb5851.zip/node_modules/@asteasolutions/zod-to-openapi/",\
+          "packageDependencies": [\
+            ["@asteasolutions/zod-to-openapi", "virtual:3264a12e7c88769b554aa243597a4430a868643e37cffd26f74509e2b5f49e2ac6d14664df878bace7d4e59bc7384cd980049f7cbdb901b3eadf8dd1b3e0f175#npm:4.5.0"],\
+            ["@types/zod", null],\
+            ["openapi3-ts", "npm:3.2.0"],\
+            ["zod", "npm:3.21.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/zod",\
+            "zod"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5459,6 +5484,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["openapi3-ts", [\
+        ["npm:3.2.0", {\
+          "packageLocation": "./.yarn/cache/openapi3-ts-npm-3.2.0-bc7f1aff0a-8796a29a13.zip/node_modules/openapi3-ts/",\
+          "packageDependencies": [\
+            ["openapi3-ts", "npm:3.2.0"],\
+            ["yaml", "npm:2.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["optionator", [\
         ["npm:0.9.1", {\
           "packageLocation": "./.yarn/cache/optionator-npm-0.9.1-577e397aae-dbc6fa0656.zip/node_modules/optionator/",\
@@ -6293,6 +6328,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["test-zod-openapi", "workspace:."],\
+            ["@asteasolutions/zod-to-openapi", "virtual:3264a12e7c88769b554aa243597a4430a868643e37cffd26f74509e2b5f49e2ac6d14664df878bace7d4e59bc7384cd980049f7cbdb901b3eadf8dd1b3e0f175#npm:4.5.0"],\
             ["@types/jest", "npm:29.5.0"],\
             ["@types/node", "npm:18.15.7"],\
             ["@typescript-eslint/eslint-plugin", "virtual:3264a12e7c88769b554aa243597a4430a868643e37cffd26f74509e2b5f49e2ac6d14664df878bace7d4e59bc7384cd980049f7cbdb901b3eadf8dd1b3e0f175#npm:5.56.0"],\
@@ -6307,7 +6343,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier-eslint", "npm:15.0.1"],\
             ["ts-jest", "virtual:3264a12e7c88769b554aa243597a4430a868643e37cffd26f74509e2b5f49e2ac6d14664df878bace7d4e59bc7384cd980049f7cbdb901b3eadf8dd1b3e0f175#npm:29.0.5"],\
             ["ts-node", "virtual:3264a12e7c88769b554aa243597a4430a868643e37cffd26f74509e2b5f49e2ac6d14664df878bace7d4e59bc7384cd980049f7cbdb901b3eadf8dd1b3e0f175#npm:10.9.1"],\
-            ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"]\
+            ["typescript", "patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"],\
+            ["zod", "npm:3.21.4"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -6831,6 +6868,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["yaml", [\
+        ["npm:2.2.1", {\
+          "packageLocation": "./.yarn/cache/yaml-npm-2.2.1-b7f7f5e84d-84f68cbe46.zip/node_modules/yaml/",\
+          "packageDependencies": [\
+            ["yaml", "npm:2.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["yargs", [\
         ["npm:17.7.1", {\
           "packageLocation": "./.yarn/cache/yargs-npm-17.7.1-0758ec0e50-3d8a43c336.zip/node_modules/yargs/",\
@@ -6870,6 +6916,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/yocto-queue-npm-0.1.0-c6c9a7db29-f77b3d8d00.zip/node_modules/yocto-queue/",\
           "packageDependencies": [\
             ["yocto-queue", "npm:0.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["zod", [\
+        ["npm:3.21.4", {\
+          "packageLocation": "./.yarn/cache/zod-npm-3.21.4-9f570b215c-f185ba8734.zip/node_modules/zod/",\
+          "packageDependencies": [\
+            ["zod", "npm:3.21.4"]\
           ],\
           "linkType": "HARD"\
         }]\
