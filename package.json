@@ -1,7 +1,30 @@
 {
   "name": "test-zod-openapi",
+  "version": "0.0.1",
+  "scripts": {
+    "types": "tsc --noEmit && eslint -c .eslintrc.json",
+    "test": "jest --passWithNoTests",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=16.15.0"
+  },
   "packageManager": "yarn@3.5.0",
   "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.7",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.7",
+    "prettier-eslint": "^15.0.1",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
   }
 }

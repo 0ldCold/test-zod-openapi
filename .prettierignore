@@ -1,0 +1,12 @@
+# Ignore artifacts:
+build
+node_modules
+public
+.next
+.swc
+
+.yarn
+.pnp.cjs
+.pnp.loader.mjs
+
+dist/**

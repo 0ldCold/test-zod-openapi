@@ -1,0 +1,10 @@
+.next/**
+node_modules/**
+.swc/**
+
+
+.yarn/**
+.pnp.cjs
+.pnp.loader.mjs
+
+dist/**
