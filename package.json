@@ -1,0 +1,4 @@
+{
+  "name": "test-zod-openapi",
+  "packageManager": "yarn@3.5.0"
+}
