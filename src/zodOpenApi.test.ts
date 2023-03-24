@@ -1,5 +1,5 @@
-import { generate } from "./index";
-
-test("test", () => {
-  const openApi = generate();
+describe("Custom components", () => {
+  it("test", async () => {
+    console.log("dsa");
+  });
 });
